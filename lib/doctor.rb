@@ -19,6 +19,7 @@ class Doctor
     Appointment.new(patient, date, self)
   end
 
-  def patients 
+  def patients
     appointments.map {|appointment| appointment.patient}
+  end
 end
