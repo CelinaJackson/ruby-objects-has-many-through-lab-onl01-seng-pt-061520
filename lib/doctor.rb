@@ -6,4 +6,8 @@ class Doctor
     @name = name
     @@all << self
   end
+
+  def new_appointment 
+    Appointment.new(patient, date, self)
+      
 end
