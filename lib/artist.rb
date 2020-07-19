@@ -23,7 +23,7 @@ def songs
 end
 
 def genres
-  songs.map {|song| song.genre}
+  self.songs.collect {|song| song.genre}
 end
 
 end
