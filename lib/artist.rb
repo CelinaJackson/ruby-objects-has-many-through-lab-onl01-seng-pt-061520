@@ -1,5 +1,5 @@
 def Artist
-  attr_accessor :name, :artist, :genre
+  attr_accessor :name, :songs, :genre
 
   @@all = []
 
