@@ -4,6 +4,8 @@ class Patient
 
   def initialize(name)
     @name = name
+    @appointment = appointment
+    @doctor = doctor
     @@all_pat << self
   end
 
