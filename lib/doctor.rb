@@ -1,4 +1,4 @@
 class Doctor
-  attr_accessor 
+  attr_accessor
   @@all = [ ]
 end
