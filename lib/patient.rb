@@ -6,7 +6,7 @@ class Patient
     @name = name
     @appointment = appointment
     @doctor = doctor
-    @@all_pat << self
+    @@all << self
   end
 
   def new_apppointment(doctor, date)
