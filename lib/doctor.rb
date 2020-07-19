@@ -7,10 +7,6 @@ class Doctor
     @@all << self
   end
 
-  def new(name)
-    @@all << self
-  end
-
   def appointments
     Appointment.all.select {|appointment| appointment.doctor == self}
   end
