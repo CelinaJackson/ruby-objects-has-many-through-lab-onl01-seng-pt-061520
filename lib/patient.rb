@@ -14,7 +14,7 @@ class Patient
   end
 
   def self.all
-    @@all_pat
+    @@all
   end
 
   def appointments
