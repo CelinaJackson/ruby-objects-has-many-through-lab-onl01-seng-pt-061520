@@ -17,7 +17,9 @@ def new_song(song, genre)
 end
 
 def songs
-  @songs
+  Song.all.select do |song|
+    song.artist == self
+  end
 end
 
 def genres
