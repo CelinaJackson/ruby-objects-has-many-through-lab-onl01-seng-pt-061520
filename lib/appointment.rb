@@ -17,7 +17,7 @@ def Appointment
     self.patient
   end
 
-  def doctors 
-    self.doctor 
+  def doctors
+    self.doctor
   end
 end
