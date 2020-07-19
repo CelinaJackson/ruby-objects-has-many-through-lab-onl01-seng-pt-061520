@@ -13,7 +13,7 @@ def Appointment
     @@all
   end
 
-  def patients 
+  def patients
     self.patient
   end
 end
